@@ -47,7 +47,7 @@ def updateColor():
     getF = combo.get()
     canvas.itemconfigure(canTex, font=(getF, 64))
 
-
+# フォントの種類を取得
 def getFontList():
     ffont = tkinter.font.families()
 
